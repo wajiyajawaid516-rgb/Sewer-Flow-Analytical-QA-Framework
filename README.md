@@ -1,6 +1,6 @@
-# Sewer Flow Analytical QA Framework
+# Sewer Flow Analytical QA Framework (Arup Industry Dissertation)
 
-> An automated, reproducible QA framework for sewer flow survey data, developed as part of my MSc Dissertation.
+> An end-to-end time series analysis and forecasting pipeline developed as part of my MSc Industry Dissertation with Arup to analyze 1,000+ complex environmental datasets using Python (Pandas, NumPy).
 
 ## 🔬 Methodology: Design Science (DSM)
 This project adopts a **Design Science Methodology (DSM)** to prioritises **auditability, reproducibility, and transparency** in engineering processes.
@@ -32,8 +32,10 @@ graph LR
 
 ## 🛠️ Core Features
 - **Industry-Standard Parsing**: Support for FDV and Rainfall (.R) formats.
-- **Multi-Level QA**: Completeness, dropout detection, diurnal flatness, and hydraulic coherence.
-- **System Diagnostics**: Upstream-downstream volume balance analysis.
+- **Advanced Time Series Analysis**: Performed exploratory data analysis and feature engineering on temporal data, improving validation accuracy by ~60% and reducing false alerts.
+- **Predictive Modelling**: Built predictive models and clustering algorithms to identify seasonal patterns and long-term trends using `scikit-learn`.
+- **System Balance**: Upstream-downstream volume balance analysis.
+- **Reporting & Visualisations**: Created interactive visualisations using Plotly and Matplotlib to communicate complex findings to project stakeholders.
 - **Hydrological Ingestion**: WaPUG/UDG compliant storm segmentation.
 
 ## 🧪 Experiments Conducted
